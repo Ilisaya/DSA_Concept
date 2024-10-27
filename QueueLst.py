@@ -1,4 +1,4 @@
-class Que:
+class QueueLst:
     def __init__(self):
         self.items=[]
         self.front=None
