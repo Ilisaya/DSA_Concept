@@ -1,6 +1,8 @@
 Class
 ================
-- A class is a blueprint for creating objects (instances). It defines a set of attributes (data) and methods (functions) that the created objects will have. Think of a class as a template that describes the characteristics and behaviors of a particular type of object.
+- A class is a blueprint for creating objects (instances). It defines a set of attributes (data) and methods 
+(functions) that the created objects will have. Think of a class as a template that describes the characteristics
+and behaviors of a particular type of object.
 
 
 Types of Methods
