@@ -1,5 +1,6 @@
 Class
 ================
+- A class is a blueprint for creating objects (instances). It defines a set of attributes (data) and methods (functions) that the created objects will have. Think of a class as a template that describes the characteristics and behaviors of a particular type of object.
 
 
 Types of Methods
@@ -43,6 +44,17 @@ Simple Example:
 
 Objects
 ===============
+--An object is an instance of a class. It represents a specific item or entity that has the attributes (data) and methods (functions) defined by its class. Objects are the building blocks of OOP, allowing you to model real-world entities in your code.
+
+Key Points About Objects:
+=========================
+1. Instance of a Class: An object is created from a class blueprint. Each object can have its own unique state, represented by its attributes.
+
+2. Attributes: These are the properties or data associated with an object. For example, in a Car class, an object may have attributes like color, model, and year.
+
+3. Methods: These are the actions or behaviors that an object can perform. Objects use methods defined in their class to interact with their data or perform operations.
+
+4. State and Behavior: The combination of an object's attributes (state) and methods (behavior) defines what the object is and what it can do.
 
 
 Encapsulation
