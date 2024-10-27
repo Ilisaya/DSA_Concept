@@ -13,7 +13,7 @@ class Deque:
 
     def delete_front(self):
         if self.is_empty():
-            raise IndexErro("Deque is empty")
+            raise IndexError("Deque is empty")
         else:
             self.items.pop(0)
 
