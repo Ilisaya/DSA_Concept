@@ -6,9 +6,11 @@ Types of Methods
 ====================
 1. Instance Methods
 =========================
--Instance methods are functions defined inside a class that work with specific instances of that class. They can access and change the data (attributes) belonging to each instance.
+-Instance methods are functions defined inside a class that work with specific instances of that class. 
+They can access and change the data (attributes) belonging to each instance.
 
-1. Access and Modify Instance Data: Instance methods use self as their first parameter. self represents the specific instance on which the method is called, allowing it to access and modify that instance’s attributes.
+1. Access and Modify Instance Data: Instance methods use self as their first parameter. 
+   self represents the specific instance on which the method is called, allowing it to access and modify that instance’s attributes.
 
 2. Called on an Instance: You can only call an instance method after creating an object (or instance) of the class.
 
@@ -17,20 +19,24 @@ Types of Methods
 
 2. Class Methods
 =========================
---Class methods are functions defined inside a class that work with the class itself rather than with individual instances. They are used to access or change class-level data that is shared among all instances of the class.
+--Class methods are functions defined inside a class that work with the class itself rather than with individual instances. 
+They are used to access or change class-level data that is shared among all instances of the class.
 
 Key Points of Class Methods:
 ===========================
-1. Operate on Class-Level Data: Class methods take cls as their first parameter (short for "class"), which represents the class itself, not a specific instance.
+1. Operate on Class-Level Data: Class methods take cls as their first parameter (short for "class"), which represents the class itself,
+   not a specific instance.
 
 2. Marked by @classmethod Decorator: They need the @classmethod decorator to tell Python that it’s a method for the class, not for instances.
 
-3. Useful for Shared Data or Alternative Constructors: Class methods are useful when you want to perform actions that affect the class as a whole, like modifying a class attribute that all instances share.
+3. Useful for Shared Data or Alternative Constructors: Class methods are useful when you want to perform actions that affect the class as a whole,
+like modifying a class attribute that all instances share.
 
 
 3. Static methods
 ========================
---Static methods are functions inside a class that don't depend on class or instance-specific data. They act like regular functions, but you place them within a class to keep related code organized.
+--Static methods are functions inside a class that don't depend on class or instance-specific data. They act like regular functions, 
+but you place them within a class to keep related code organized.
 
 Key Points of Static Methods:
 ===============================
@@ -38,7 +44,8 @@ Key Points of Static Methods:
 
 2..Marked by @staticmethod Decorator: The @staticmethod decorator tells Python that this method doesn’t depend on an instance or class data.
 
-3. Useful for Utility Functions: They are often used for helper functions related to the class’s purpose but don’t require access to the class or instance itself.
+3. Useful for Utility Functions: They are often used for helper functions related to the class’s purpose but don’t require access to the 
+class or instance itself.
 Simple Example:
 
 Objects
@@ -47,14 +54,17 @@ Objects
 
 Encapsulation
 ====================
-Encapsulation is the concept of bundling data (Attribute) and methods(Functionality) that operate on that data within a single unit or class. This helps to keep data safe from external interference and misuse.
+Encapsulation is the concept of bundling data (Attribute) and methods(Functionality) that operate on that data within a single
+unit or class. This helps to keep data safe from external interference and misuse.
 
 
 1.Public Attributes: Accessible from any part of the program.
 
-2.Protected Attributes: Indicated by a single underscore (_), suggesting that they should not be accessed directly outside the class, though technically, they can still be accessed.
+2.Protected Attributes: Indicated by a single underscore (_), suggesting that they should not be accessed directly outside the class, 
+though technically, they can still be accessed.
 
-3.Private Attributes: Indicated by a double underscore (__), making them inaccessible from outside the class by name-mangling the attribute (though it can still be accessed indirectly if needed).
+3.Private Attributes: Indicated by a double underscore (__), making them inaccessible from outside the class by name-mangling the attribute
+(though it can still be accessed indirectly if needed).
 
 Why Encapsulation is Important
 ===============================
@@ -64,11 +74,13 @@ Why Encapsulation is Important
 
 3.Code Maintainability: Keeping data and methods that work on the data together simplifies understanding and debugging code.
 
-4.Flexibility for Modification: Changes to data handling logic are localized within the class, making it easier to modify or extend functionality without affecting other parts of the code.
+4.Flexibility for Modification: Changes to data handling logic are localized within the class, making
+it easier to modify or extend functionality without affecting other parts of the code.
 
 Abstraction
 =======================
-Abstraction is the concept of hiding complex implementation details and exposing only essentials information. it simplifies usage for the user and reduces complexity.
+Abstraction is the concept of hiding complex implementation details and exposing only essentials information.
+it simplifies usage for the user and reduces complexity.
 
 
 
